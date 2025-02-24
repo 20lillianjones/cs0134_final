@@ -1,0 +1,116 @@
+<!--CS 0134 - Lillian Jones-->
+<!--Final Project-->
+<!DOCTYPE html>
+<html lang="en">
+    <!--Head:-->
+    <head>
+        <meta charset="utf-8">
+        <title>Lilly Eats</title>
+        <link rel="stylesheet" href="breakfast.css">
+
+        <!--Add library for social media icons:-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <!--Font library:-->
+        <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
+    </head>
+    <!--Body:-->
+    <body>
+        <header>
+            <h1>
+                <a href="index.html">Lilly Eats</a>
+            </h1>
+            <h3>By Pittsburgh food critic, Lillian Jones         <a id="instaLogo1" href="https://www.instagram.com/lillyeats__/" class="fa fa-instagram"></a></h3>
+                <nav>
+                   <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="breakfast.html">Breakfast</a></li>
+                    <li><a href="lunch.html">Lunch</a></li>
+                    <li><a href="dinner.html">Dinner</a></li>
+                    <li><a href="snacks.html">Snacks & Other</a></li>
+                    <li><a href="ranking.html">Rankings</a></li>
+                   </ul>
+                </nav>
+             </header>
+         <!--Begin different content here:-->
+         <h2 id="title">Breakfast in the 'Burgh</h2>
+         <p>Here are some of my favorite breakfast spots in Pittsburgh. While most of the photos are<br>
+            of breakfast sandwiches (my favorite), each place has their own unique menu with something for everyone.
+        </p>
+        <h2>Click on the photo to visit the restaurant's website!</h2>
+         <!--Pamela's-->
+         <h4>Pamela's Diner</h4>
+         <p>First up is Pamela's Diner. This breakfast joint has been a Pittsburgh staple since 
+            1980. Even with multiple Pittsburgh locations, expect to experience a wait if you're visiting
+            on a Saturday or Sunday morning. However, rest assured that the wait will be worth it!
+            This place has excellent service, as well as delivering a classic-diner vibe! This place is truly delicious.
+         </p>
+         <h5>My order:</h5>
+         <ul>
+            <li>Bacon, egg, and cheese sandwich</li>
+            <li>Lyonnaise potatoes</li>
+            <li>Chocolate milk</li>
+         </ul>
+         <figure>
+            <a href="https://pamelasdiner.com/">
+                <img src="photos/breakfast1.jpg" alt="breakfast1" style="width:50%">
+            </a>
+        </figure>
+         <!--Thyme Machine-->
+         <h4 class="mid">Thyme Machine</h4>
+         <p class="mid">Next up is the Thyme Machine! This is a newer Pittsburgh spot, and I only tried this
+            for the first time last summer. This spot prides themselves in only serving Pittsburgh. They
+            operate in different areas of the city, as this is a breakfast cart, but they can mostly be
+            found on Liberty Avenue. Since this is a breakfast cart, expect a limited menu. However, if you
+            are a fan of a good breakfast sandwich, this is the best I've had in Pittsburgh!
+         </p>
+         <h5 class="mid">My order:</h5>
+         <ul class="mid">
+            <li>Bacon, egg, and cheese</li>
+         </ul>
+         <figure class="mid">
+            <a href="https://www.instagram.com/thymemachinepgh/?hl=en">
+                <img src="photos/breakfast2.jpg" alt="breakfast2" style="width:50%">
+            </a>
+        </figure>
+        <!--Pigeon Bagels-->
+        <h4>Pigeon Bagels</h4>
+        <p>Last on this list is Pigeon Bagels. This is a Kosher bakery serving fresh bagels in
+            Squirrel Hill. This has to be my favorite bagel in the city. They are always fresh,
+            and the texture is perfect. Get here quick, as they often sell-out fast, especially on the
+            weekends!
+         </p>
+         <h5>My order:</h5>
+         <ul>
+            <li>Lox bagel with plain cream cheese</li>
+         </ul>
+         <figure>
+            <a href="https://pigeonbagels.com/">
+                <img src="photos/breakfast3.jpg" alt="breakfast3" style="width:50%">
+            </a>
+        </figure>
+
+        <!--JavaScript code applied to all images:-->
+        <script>
+            //Apply the effect to all images on the page:
+            let images = document.querySelectorAll("img");
+        
+            //Loop through each image to add hover effects:
+            images.forEach(function(image) {
+              image.addEventListener("mouseover", function() {
+                image.style.opacity=0.5; //Reduce the opacity when hovered over, indicating a link
+              });
+        
+              image.addEventListener("mouseout", function() {
+                image.style.opacity=1; //Increase opacity when the mouse leaves
+              });
+            });
+        </script>
+
+         <!--Footer:-->
+         <footer>
+            <h4><a href="index.html">Lilly Eats</a></h4>
+            <a id="instaLogo2" href="https://www.instagram.com/lillyeats__/" class="fa fa-instagram"></a>
+         </footer>
+    </body>
+</html>

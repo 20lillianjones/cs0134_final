@@ -1,0 +1,68 @@
+<!--CS 0134 - Lillian Jones-->
+<!--Final Project-->
+<!DOCTYPE html>
+<html lang="en">
+    <!--Head:-->
+    <head>
+        <meta charset="utf-8">
+        <title>Lilly Eats</title>
+        <link rel="stylesheet" href="index.css">
+
+        <!--Add library for social media icons:-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <!--Font library:-->
+        <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
+    </head>
+    <!--Body:-->
+    <body>
+        <header>
+        <h1>
+            <a href="index.html">Lilly Eats</a>
+        </h1>
+        <h3>By Pittsburgh food critic, Lillian Jones         <a id="instaLogo1" href="https://www.instagram.com/lillyeats__/" class="fa fa-instagram"></a></h3>
+            <nav>
+               <ul>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="breakfast.html">Breakfast</a></li>
+                  <li><a href="lunch.html">Lunch</a></li>
+                  <li><a href="dinner.html">Dinner</a></li>
+                  <li><a href="snacks.html">Snacks & Other</a></li>
+                  <li><a href="ranking.html">Rankings</a></li>
+               </ul>
+            </nav>
+         </header>
+         <!--Begin different content here:-->
+         <h2 id="title">Welcome!</h2>
+         <p id="desc">On this page, you can find all of the best grub in Pittsburgh. Select the meal, and feed your appetite!</p>
+         <!--Include photos of food-->
+
+         <form action="https://jkorpela.fi/cgi-bin/echo.cgi" method="post">
+            <!--Order Information:-->
+            <fieldset>
+                <legend>Sign-up to receive my newsletter!</legend>
+                <div>
+                    <label for="E-mail">E-mail<br></label>
+                    <input name="emailVal" id="E-mail">
+                </div>
+                <div>
+                    <input type="checkbox" id="getEmails" name="getEmailsVal" value="getEmails">
+                    <label for="getEmails">I would like to receive e-mail messages with promotions, deals, etc.</label><br>
+                </div>
+                <input type="submit" id="submitButton" value="Sign Up">
+            </fieldset>
+        </form>
+
+        <h4>Want to collaborate? Contact me below!</h4>
+        <p id="contact">
+            <a id="email" href="mailto:20lillianjones@gmail.com&subject=Lilly Eats Collaboration Inquery" target="_blank">E-Mail Me!</a><br>
+            <a id="phone" href="tel:+91724-757-1048">Call me!</a>
+        </p>
+         
+         <!--Footer:-->
+         <footer>
+            <h4><a href="index.html">Lilly Eats</a></h4>
+            <a id="instaLogo2" href="https://www.instagram.com/lillyeats__/" class="fa fa-instagram"></a>
+         </footer>
+    </body>
+</html>

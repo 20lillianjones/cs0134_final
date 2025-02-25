@@ -1,0 +1,150 @@
+/*Establish page style:*/
+body{
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background:
+    repeating-linear-gradient( -45deg,#20271d, #374232 1px,#20271d 1px);
+}
+
+/*Format header:*/
+header h1{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: snow;
+    
+}
+
+header h1 a{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'Chewy', cursive;
+    font-size: 64px;
+    text-decoration: none;
+    color: #556949;
+
+    text-shadow: 
+    5px 5px 0 #000,  
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000;
+}
+
+header h3{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: snow;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header h3 a{
+    text-decoration: none;
+    color: black;
+}
+
+header nav{
+    display: table;
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header nav a:link, header nav a:visited{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+	color: snow;
+	text-decoration: none;
+	background-color: #4d663f;
+}
+
+header nav a:hover, header nav a:active{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+	color: snow;
+	background-color: #324229;
+}
+
+header nav li{
+    list-style-type: none;
+    display: inline
+}
+
+header nav ul {
+	display: table-row;
+}
+
+header nav ul li {
+	display: table-cell;
+	text-align: center;
+}
+
+header nav ul li a{
+	display: block;
+}
+
+/*Format footer:*/
+footer{
+    text-align: center;
+    background-color: snow;
+    font-family: 'Chewy', cursive;
+}
+
+footer a{
+    text-decoration: none;
+    color: #232b1e;
+}
+
+/*Begin new content here:*/
+h2, h4, h5, p, ul, figure {
+    background-color: snow;
+    margin: 0px 0px 0px 0px;
+    padding: 5px 5px 5px 5px;
+}
+
+h2, h4{
+    font-family: 'Chewy', cursive;
+}
+
+h5, p, ul{
+    font-family: 'Courier New', Courier, monospace
+}
+
+ul{
+    list-style-position: inside;
+}
+
+img {
+    padding-bottom: 12px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 200px;
+    height: auto;
+}
+
+h4{
+    font-size: 30px;
+}
+
+#title{
+    font-size: 45px;
+}
+
+.mid{
+    background-color:#dcdcdc;
+}
